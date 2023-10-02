@@ -38,7 +38,7 @@ aside{
 section{
     overflow-y: scroll;
     position: fixed;
-    background-color: beige;
+    background-color: bisque;
     top: 80px;
     left: 20%;
     bottom: 20px;
@@ -85,4 +85,26 @@ a{
 a:hover{
     background-color: black;
     color: white;
+}
+
+table{
+    width: 90%;
+}
+
+tbody tr:nth-child(odd){
+   background-color: blue;
+   color:white;
+}
+
+tbody tr:nth-child(even){
+   background-color: black;
+   color:white;
+}
+
+.CeldaCentrada{
+    text-align: center;
+}
+
+.CeldaDerecha{
+    text-align: right;
 }
