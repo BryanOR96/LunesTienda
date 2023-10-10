@@ -21,9 +21,7 @@ header{
     position: fixed;
     top:0;
     left: 0;
-    font-weight: bold; 
-    font-family: Arial, sans-serif;
-    
+   
 }
 
 aside{
@@ -82,15 +80,20 @@ a{
     color: white;
 }
 
-a:hover{
+/*a:hover{
     background-color: black;
     color: white;
 }
 
+a:visited{
+    background-color:green;
+    color: white;
+}*/
+
 table{
     width: 90%;
 }
-
+/*
 tbody tr:nth-child(odd){
    background-color: blue;
    color:white;
@@ -100,11 +103,30 @@ tbody tr:nth-child(even){
    background-color: black;
    color:white;
 }
-
+*/
 .CeldaCentrada{
     text-align: center;
 }
 
 .CeldaDerecha{
     text-align: right;
+}
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
 }
